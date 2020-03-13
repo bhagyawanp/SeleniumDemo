@@ -22,6 +22,8 @@ public class BookingHotels extends base {
 		driver = intializeDriver();
 		log.info("driver intialized");
 		driver.get(prop.getProperty("url"));
+		log.info("navigate to url");
+		
 		
 	}
 
@@ -47,12 +49,14 @@ public class BookingHotels extends base {
 		Select s = new Select(hb.getAdultCount());
 		s.selectByIndex(2);
 		hb.getSearchHotel().click();
-
+		
+		log.info("went through all elements");
 	}
 	@AfterTest
 	public void teardown() {
 		driver.close();
 		driver = null;//to clear the heap memory
+		log.info("close the browser");
 	}
 	
 

@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30055" started-at="2020-03-12T09:21:02 IST" finished-at="2020-03-12T09:21:32 IST">
+  <suite name="Default suite" duration-ms="19193" started-at="2020-03-13T18:16:20 IST" finished-at="2020-03-13T18:16:39 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30055" started-at="2020-03-12T09:21:02 IST" finished-at="2020-03-12T09:21:32 IST">
-      <class name="spicejet.flightBooking">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.flightBooking@6989da5e]" name="intialize" is-config="true" duration-ms="9414" started-at="2020-03-12T09:21:10 IST" finished-at="2020-03-12T09:21:20 IST">
+    <test name="Default test" duration-ms="19193" started-at="2020-03-13T18:16:20 IST" finished-at="2020-03-13T18:16:39 IST">
+      <class name="spicejet.spiceClubRegister">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.spiceClubRegister@10683d9d]" name="intialize" is-config="true" duration-ms="13935" started-at="2020-03-13T18:16:20 IST" finished-at="2020-03-13T18:16:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="flightBookingTc()[pri:0, instance:spicejet.flightBooking@6989da5e]" name="flightBookingTc" duration-ms="9160" started-at="2020-03-12T09:21:23 IST" finished-at="2020-03-12T09:21:32 IST">
+        <test-method status="PASS" signature="RegisterUSerTc()[pri:0, instance:spicejet.spiceClubRegister@10683d9d]" name="RegisterUSerTc" duration-ms="5206" started-at="2020-03-13T18:16:34 IST" finished-at="2020-03-13T18:16:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- flightBookingTc -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:spicejet.flightBooking@6989da5e]" name="teardown" is-config="true" duration-ms="315" started-at="2020-03-12T09:21:32 IST" finished-at="2020-03-12T09:21:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- spicejet.flightBooking -->
-      <class name="spicejet.BookingHotels">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.BookingHotels@5aa9e4eb]" name="intialize" is-config="true" duration-ms="7743" started-at="2020-03-12T09:21:02 IST" finished-at="2020-03-12T09:21:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="bookingHotelsTc()[pri:0, instance:spicejet.BookingHotels@5aa9e4eb]" name="bookingHotelsTc" duration-ms="3235" started-at="2020-03-12T09:21:20 IST" finished-at="2020-03-12T09:21:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookingHotelsTc -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:spicejet.BookingHotels@5aa9e4eb]" name="teardown" is-config="true" duration-ms="120" started-at="2020-03-12T09:21:32 IST" finished-at="2020-03-12T09:21:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- spicejet.BookingHotels -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- RegisterUSerTc -->
+      </class> <!-- spicejet.spiceClubRegister -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

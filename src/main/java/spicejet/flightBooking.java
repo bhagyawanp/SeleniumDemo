@@ -19,7 +19,7 @@ public class flightBooking extends base{
 		driver = intializeDriver();
 		log.info("driver initialized");
 		driver.get(prop.getProperty("url"));
-		log.info("driver baviagted");
+		log.info("Naviaget to url");
 		
 		
 	}
@@ -27,8 +27,6 @@ public class flightBooking extends base{
 
 	@Test
 	public void flightBookingTc() throws IOException, InterruptedException {
-		
-		log.info("navigated to site");
 		FlightBooking fb = new FlightBooking(driver);
 		fb.getdaparture().click();
 		fb.getdepartureCity().click();
@@ -43,12 +41,15 @@ public class flightBooking extends base{
 			}
 		}
 		fb.getsearchflight().click();
+		log.info("went through all elements");
 	}
 		@AfterTest
 		public void teardown() {
 			driver.close();
 			driver = null;
+			log.info("close the browser");
 		}
+		
 
 }
 
