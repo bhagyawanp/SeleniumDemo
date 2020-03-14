@@ -17,7 +17,7 @@ public class Registeration {
 	By mobileNumber=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINTLMOBILENUMBER']");
 	By password=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldAgentPassword']");
 	By ConfirmPAssword=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']");
-	By DoB=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB']");
+	By DoB=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB");
 	By Email=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']");
 	By tAndc=By.xpath("//input[@id='chkSpiceClubTnC']");
 	By submit=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_ButtonSubmit']");

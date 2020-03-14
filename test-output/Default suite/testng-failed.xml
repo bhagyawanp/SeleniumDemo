@@ -5,7 +5,6 @@
     <classes>
       <class name="spicejet.spiceClubRegister">
         <methods>
-          <include name="teardown"/>
           <include name="intialize"/>
           <include name="RegisterUSerTc"/>
         </methods>

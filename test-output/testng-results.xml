@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19193" started-at="2020-03-13T18:16:20 IST" finished-at="2020-03-13T18:16:39 IST">
+  <suite name="Default suite" duration-ms="42800" started-at="2020-03-14T23:31:45 IST" finished-at="2020-03-14T23:32:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19193" started-at="2020-03-13T18:16:20 IST" finished-at="2020-03-13T18:16:39 IST">
+    <test name="Default test" duration-ms="42800" started-at="2020-03-14T23:31:45 IST" finished-at="2020-03-14T23:32:28 IST">
       <class name="spicejet.spiceClubRegister">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.spiceClubRegister@10683d9d]" name="intialize" is-config="true" duration-ms="13935" started-at="2020-03-13T18:16:20 IST" finished-at="2020-03-13T18:16:34 IST">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.spiceClubRegister@3eb738bb]" name="intialize" is-config="true" duration-ms="17323" started-at="2020-03-14T23:31:45 IST" finished-at="2020-03-14T23:32:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="RegisterUSerTc()[pri:0, instance:spicejet.spiceClubRegister@10683d9d]" name="RegisterUSerTc" duration-ms="5206" started-at="2020-03-13T18:16:34 IST" finished-at="2020-03-13T18:16:39 IST">
+        <test-method status="PASS" signature="RegisterUSerTc()[pri:0, instance:spicejet.spiceClubRegister@3eb738bb]" name="RegisterUSerTc" duration-ms="25411" started-at="2020-03-14T23:32:02 IST" finished-at="2020-03-14T23:32:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterUSerTc -->

@@ -56,7 +56,7 @@ public class BookingHotels extends base {
 	public void teardown() {
 		driver.close();
 		driver = null;//to clear the heap memory
-		log.info("close the browser");
+		log.info("");
 	}
 	
 
