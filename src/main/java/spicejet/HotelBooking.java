@@ -10,11 +10,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import Resources.base;
-import pageObjectModel.HotelBooking;
+import Resources.Base;
+import pageObjectModel.HotelBookingPageObj;
 
-public class BookingHotels extends base {
-	 public static Logger log =LogManager.getLogger(base.class.getName());
+public class HotelBooking extends Base {
+	public static Logger log = LogManager.getLogger(Base.class.getName());
 
 	@BeforeTest
 
@@ -23,25 +23,23 @@ public class BookingHotels extends base {
 		log.info("driver intialized");
 		driver.get(prop.getProperty("url"));
 		log.info("navigate to url");
-		
-		
+
 	}
 
 	@Test
-	public void bookingHotelsTc() throws IOException, InterruptedException {
-	
-	
-		HotelBooking hb = new HotelBooking(driver);
-		hb.gethotelseacrh().click();
-		WebElement source = hb.getdestinationcity();
+	public void hotelBookingTc() throws IOException, InterruptedException {
+
+		HotelBookingPageObj hb = new HotelBookingPageObj(driver);
+		hb.getHotelSearch().click();
+		WebElement source = hb.getDestinationCity();
 		source.click();
 		source.sendKeys("Pune");
 		hb.getCheckInDate().click();
-		int count1 = hb.getcalendarSelection().size();
+		int count1 = hb.getCalendarSelection().size();
 		for (int i = 0; i < count1; i++) {
-			String text = hb.getcalendarSelection().get(i).getText();
+			String text = hb.getCalendarSelection().get(i).getText();
 			if (text.equalsIgnoreCase("21")) {
-				hb.getcalendarSelection().get(i).click();
+				hb.getCalendarSelection().get(i).click();
 				break;
 			}
 		}
@@ -49,15 +47,15 @@ public class BookingHotels extends base {
 		Select s = new Select(hb.getAdultCount());
 		s.selectByIndex(2);
 		hb.getSearchHotel().click();
-		
+
 		log.info("went through all elements");
 	}
+
 	@AfterTest
-	public void teardown() {
+	public void tearDown() {
 		driver.close();
-		driver = null;//to clear the heap memory
+		driver = null;// to clear the heap memory
 		log.info("");
 	}
-	
 
 }

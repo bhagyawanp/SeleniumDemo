@@ -6,43 +6,43 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class HotelBooking {
+public class HotelBookingPageObj {
 	public WebDriver driver;
 	
 	By hotelSearch=By.xpath("//span[contains(text(),'Hotels')]");
 	By destinationCity=By.xpath("//input[@id='ctl00_mainContent_txtOriginStation1_MST']");
-	By CheckInDate=By.xpath("//input[@id='ctl00_mainContent_txt_Fromdate_MST']");
+	By checkInDate=By.xpath("//input[@id='ctl00_mainContent_txt_Fromdate_MST']");
 	By calendarSelection=By.xpath("//div[@class='ui-datepicker-group ui-datepicker-group-first']//a[@class='ui-state-default']");
-	By SelectAdult=By.xpath("//select[@id='ddl_Adult_MST']");
+	By selectAdult=By.xpath("//select[@id='ddl_Adult_MST']");
 	By searchHotel=By.xpath("//input[@id='ctl00_mainContent_ButtonSubmit_MST']");
 
 
 	
 	
-	public HotelBooking(WebDriver driver) {
+	public HotelBookingPageObj(WebDriver driver) {
 		this.driver=driver;	
 	}
 	
 	
-	public WebElement gethotelseacrh() {
+	public WebElement getHotelSearch() {
 		return driver.findElement( hotelSearch);
 		
 	}
-	public WebElement getdestinationcity() {
+	public WebElement getDestinationCity() {
 		return driver.findElement(destinationCity);
 		
 	}
 	public WebElement getCheckInDate() {
-		return driver.findElement(CheckInDate);
+		return driver.findElement(checkInDate);
 		
 	}
-	public List<WebElement> getcalendarSelection() {
+	public List<WebElement> getCalendarSelection() {
 		return driver.findElements(calendarSelection);
 		
 	}
 	
 	public WebElement getAdultCount() {
-		return driver.findElement(SelectAdult);
+		return driver.findElement(selectAdult);
 		
 	}
 	public WebElement getSearchHotel() {

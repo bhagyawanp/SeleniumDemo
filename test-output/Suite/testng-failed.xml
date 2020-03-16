@@ -6,12 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="spicejet.spiceClubRegister">
+      <class name="spicejet.UserLogin">
         <methods>
+          <include name="tearDown"/>
           <include name="intialize"/>
-          <include name="RegisterUSerTc"/>
+          <include name="loginUserTc" invocation-numbers="1"/>
         </methods>
-      </class> <!-- spicejet.spiceClubRegister -->
+      </class> <!-- spicejet.UserLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

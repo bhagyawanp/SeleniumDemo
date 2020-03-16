@@ -17,43 +17,43 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import Resources.base;
-import Resources.excelDatadriven;
-import pageObjectModel.Registeration;
+import Resources.Base;
+import Resources.ExcelDataDriven;
+import pageObjectModel.RegisterUserPageObj;
 
-public class spiceClubRegister extends base {
-	public static Logger log = LogManager.getLogger(base.class.getName());
+public class RegisterUser extends Base {
+	public static Logger log = LogManager.getLogger(Base.class.getName());
 
 	@BeforeTest
 	public void intialize() throws IOException {
 		driver = intializeDriver();
-		log.info("driver initialized register");
+		log.info("driver initialized");
 		driver.get(prop.getProperty("url"));
-		log.info("naviaget to url register");
+		log.info("naviaget to url ");
 	}
 
 	@Test
-	public void RegisterUSerTc() throws IOException, InterruptedException {
+	public void registerUserTc() throws IOException, InterruptedException {
 
-		Registeration rs = new Registeration(driver);
+		RegisterUserPageObj rs = new RegisterUserPageObj(driver);
 		Actions d = new Actions(driver);
 		d.moveToElement(rs.getLoginButton());
-		WebElement element = rs.getSpcieClubMember();
+		WebElement element = rs.getSpiceClubMember();
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
 		WebElement element1 = rs.getsignUp();
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element1);
 		Select s = new Select(rs.gettitle());
 		s.selectByIndex(1);
-		
-		excelDatadriven ed=new excelDatadriven();
-		ArrayList<String> data=ed.getData("registerdata");
-		
+
+		ExcelDataDriven ed = new ExcelDataDriven();
+		ArrayList<String> data = ed.getData("registerdata");
+
 		rs.getFirstName().sendKeys(data.get(1));
 		rs.getLastName().sendKeys(data.get(2));
 		rs.getMobileNumber().sendKeys(data.get(3));
 		rs.getpassword().sendKeys(data.get(4));
 		rs.getConfirmPAssword().sendKeys(data.get(5));
-        
+
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript(
 				"document.getElementById('CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB').value='06/04/1996'");
@@ -62,14 +62,15 @@ public class spiceClubRegister extends base {
 		log.info("t and c accepeted");
 		rs.getSubmit().click();
 		log.info("u have regietr succesfully");
-		
 
 	}
-	/*
-	 * @AfterTest public void teardown() { driver.close(); driver = null;
-	 * log.info("close the browser register");
-	 * 
-	 * }
-	 */
+
+	@AfterTest
+	public void tearDown() {
+		driver.close();
+		driver = null;
+		log.info("close the browser register");
+
+	}
 
 }

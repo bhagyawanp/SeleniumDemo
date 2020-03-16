@@ -4,36 +4,36 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Registeration {
+public class RegisterUserPageObj {
 	
 	public WebDriver driver;
 	
-	By LoginButton=By.xpath("//a[@id='ctl00_HyperLinkLogin']");
+	By loginButton=By.xpath("//a[@id='ctl00_HyperLinkLogin']");
 	By spiceClubMember=By.xpath("//a[contains(text(),'SpiceClub Members')]");
 	By signUp=By.xpath("//a[contains(text(),'Sign up')]");
 	By title=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListTitle");
-	By FirstName=By.cssSelector("#CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxFirstName");
-	By LastName=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxLastName']");
+	By firstName=By.cssSelector("#CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxFirstName");
+	By lastName=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxLastName']");
 	By mobileNumber=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINTLMOBILENUMBER']");
 	By password=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldAgentPassword']");
-	By ConfirmPAssword=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']");
-	By DoB=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB");
-	By Email=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']");
+	By confirmPassword=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']");
+	By doB=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB");
+	By email=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']");
 	By tAndc=By.xpath("//input[@id='chkSpiceClubTnC']");
 	By submit=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_ButtonSubmit']");
 	
 	
 	
-	public Registeration(WebDriver driver) {
+	public RegisterUserPageObj(WebDriver driver) {
 		this.driver=driver;	
 	}
 	
 	
 	public WebElement getLoginButton() {
-		return driver.findElement(LoginButton);
+		return driver.findElement(loginButton);
 		
 	}
-	public WebElement getSpcieClubMember() {
+	public WebElement getSpiceClubMember() {
 		return driver.findElement(spiceClubMember);
 		
 	}
@@ -46,12 +46,12 @@ public class Registeration {
 		
 	}
 	public WebElement getFirstName() {
-		return driver.findElement(FirstName);
+		return driver.findElement(firstName);
 		
 	}
 	
 	public WebElement getLastName() {
-		return driver.findElement(LastName);
+		return driver.findElement(lastName);
 		
 	}
 	
@@ -64,20 +64,20 @@ public class Registeration {
 		
 	}
 	public WebElement getConfirmPAssword() {
-		return driver.findElement(ConfirmPAssword);
+		return driver.findElement(confirmPassword);
 		
 	}
 	public WebElement getDoB() {
-		return driver.findElement(DoB);
+		return driver.findElement(doB);
 		
 	}
 	
 	public WebElement getEmail() {
-		return driver.findElement( Email);
+		return driver.findElement( email);
 		
 	}
 	public WebElement gettAndc() {
-		return driver.findElement( tAndc);
+		return driver.findElement(tAndc);
 		
 	}
 	
