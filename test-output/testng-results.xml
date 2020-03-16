@@ -2,44 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="168159" started-at="2020-03-16T13:10:43 IST" finished-at="2020-03-16T13:13:31 IST">
+  <suite name="Suite" duration-ms="121487" started-at="2020-03-16T19:27:52 IST" finished-at="2020-03-16T19:29:54 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="168159" started-at="2020-03-16T13:10:43 IST" finished-at="2020-03-16T13:13:31 IST">
+    <test name="Test" duration-ms="121487" started-at="2020-03-16T19:27:52 IST" finished-at="2020-03-16T19:29:54 IST">
       <class name="spicejet.FlightBooking">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.FlightBooking@3b0090a4]" name="intialize" is-config="true" duration-ms="19504" started-at="2020-03-16T13:10:43 IST" finished-at="2020-03-16T13:11:02 IST">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.FlightBooking@3cd3e762]" name="intialize" is-config="true" duration-ms="15030" started-at="2020-03-16T19:27:52 IST" finished-at="2020-03-16T19:28:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="flightBookingTc()[pri:0, instance:spicejet.FlightBooking@3b0090a4]" name="flightBookingTc" duration-ms="18604" started-at="2020-03-16T13:12:09 IST" finished-at="2020-03-16T13:12:28 IST">
+        <test-method status="PASS" signature="flightBookingTc()[pri:0, instance:spicejet.FlightBooking@3cd3e762]" name="flightBookingTc" duration-ms="5309" started-at="2020-03-16T19:28:56 IST" finished-at="2020-03-16T19:29:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightBookingTc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.FlightBooking@3b0090a4]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-03-16T13:13:30 IST" finished-at="2020-03-16T13:13:31 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.FlightBooking@3cd3e762]" name="tearDown" is-config="true" duration-ms="124" started-at="2020-03-16T19:29:53 IST" finished-at="2020-03-16T19:29:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- spicejet.FlightBooking -->
-      <class name="spicejet.HotelBooking">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.HotelBooking@179ece50]" name="intialize" is-config="true" duration-ms="19232" started-at="2020-03-16T13:11:02 IST" finished-at="2020-03-16T13:11:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="hotelBookingTc()[pri:0, instance:spicejet.HotelBooking@179ece50]" name="hotelBookingTc" duration-ms="4058" started-at="2020-03-16T13:12:05 IST" finished-at="2020-03-16T13:12:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hotelBookingTc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.HotelBooking@179ece50]" name="tearDown" is-config="true" duration-ms="125" started-at="2020-03-16T13:13:31 IST" finished-at="2020-03-16T13:13:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- spicejet.HotelBooking -->
       <class name="spicejet.UserLogin">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.UserLogin@1fa121e2]" name="intialize" is-config="true" duration-ms="19703" started-at="2020-03-16T13:11:46 IST" finished-at="2020-03-16T13:12:05 IST">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.UserLogin@7eac9008]" name="intialize" is-config="true" duration-ms="15766" started-at="2020-03-16T19:28:36 IST" finished-at="2020-03-16T19:28:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="loginUserTc(java.lang.String, java.lang.String)[pri:0, instance:spicejet.UserLogin@1fa121e2]" name="loginUserTc" duration-ms="8664" started-at="2020-03-16T13:13:07 IST" data-provider="getData" finished-at="2020-03-16T13:13:15 IST">
+        <test-method status="PASS" signature="loginUserTc(java.lang.String, java.lang.String)[pri:0, instance:spicejet.UserLogin@7eac9008]" name="loginUserTc" duration-ms="18693" started-at="2020-03-16T19:29:19 IST" data-provider="getData" finished-at="2020-03-16T19:29:38 IST">
           <params>
             <param index="0">
               <value>
@@ -55,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUserTc -->
-        <test-method status="FAIL" signature="loginUserTc(java.lang.String, java.lang.String)[pri:0, instance:spicejet.UserLogin@1fa121e2]" name="loginUserTc" duration-ms="15075" started-at="2020-03-16T13:13:15 IST" data-provider="getData" finished-at="2020-03-16T13:13:30 IST">
+        <test-method status="FAIL" signature="loginUserTc(java.lang.String, java.lang.String)[pri:0, instance:spicejet.UserLogin@7eac9008]" name="loginUserTc" duration-ms="15081" started-at="2020-03-16T19:29:38 IST" data-provider="getData" finished-at="2020-03-16T19:29:53 IST">
           <params>
             <param index="0">
               <value>
@@ -74,10 +60,10 @@
   (Session info: chrome=80.0.3987.132)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Bhagyawants-MacBook-Pro.local', ip: '2409:4042:200e:c00b:109d:e679:3d64:d871%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+System info: host: 'Bhagyawants-MacBook-Pro.local', ip: '2409:4042:200e:c00b:a48b:7b41:f14d:b9bb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/fc/55j473p12ll...}, goog:chromeOptions: {debuggerAddress: localhost:59820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0f659f4cf0b6bc70c3b728dfcf16aa23
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/fc/55j473p12ll...}, goog:chromeOptions: {debuggerAddress: localhost:56615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 93365250546787c739383554a56e2641
 *** Element info: {Using=xpath, value=//a[@id='ctl00_HyperLinkLogin']}]]>
             </message>
             <full-stacktrace>
@@ -85,10 +71,10 @@ Session ID: 0f659f4cf0b6bc70c3b728dfcf16aa23
   (Session info: chrome=80.0.3987.132)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Bhagyawants-MacBook-Pro.local', ip: '2409:4042:200e:c00b:109d:e679:3d64:d871%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+System info: host: 'Bhagyawants-MacBook-Pro.local', ip: '2409:4042:200e:c00b:a48b:7b41:f14d:b9bb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/fc/55j473p12ll...}, goog:chromeOptions: {debuggerAddress: localhost:59820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0f659f4cf0b6bc70c3b728dfcf16aa23
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/fc/55j473p12ll...}, goog:chromeOptions: {debuggerAddress: localhost:56615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 93365250546787c739383554a56e2641
 *** Element info: {Using=xpath, value=//a[@id='ctl00_HyperLinkLogin']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -140,21 +126,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUserTc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.UserLogin@1fa121e2]" name="tearDown" is-config="true" duration-ms="119" started-at="2020-03-16T13:13:31 IST" finished-at="2020-03-16T13:13:31 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.UserLogin@7eac9008]" name="tearDown" is-config="true" duration-ms="280" started-at="2020-03-16T19:29:54 IST" finished-at="2020-03-16T19:29:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- spicejet.UserLogin -->
-      <class name="spicejet.RegisterUser">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.RegisterUser@3cd3e762]" name="intialize" is-config="true" duration-ms="23991" started-at="2020-03-16T13:11:22 IST" finished-at="2020-03-16T13:11:46 IST">
+      <class name="spicejet.HotelBooking">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.HotelBooking@3b0090a4]" name="intialize" is-config="true" duration-ms="14132" started-at="2020-03-16T19:28:07 IST" finished-at="2020-03-16T19:28:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="registerUserTc()[pri:0, instance:spicejet.RegisterUser@3cd3e762]" name="registerUserTc" duration-ms="38640" started-at="2020-03-16T13:12:28 IST" finished-at="2020-03-16T13:13:07 IST">
+        <test-method status="PASS" signature="hotelBookingTc()[pri:0, instance:spicejet.HotelBooking@3b0090a4]" name="hotelBookingTc" duration-ms="3895" started-at="2020-03-16T19:28:52 IST" finished-at="2020-03-16T19:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelBookingTc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.HotelBooking@3b0090a4]" name="tearDown" is-config="true" duration-ms="213" started-at="2020-03-16T19:29:53 IST" finished-at="2020-03-16T19:29:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- spicejet.HotelBooking -->
+      <class name="spicejet.RegisterUser">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:spicejet.RegisterUser@1fa121e2]" name="intialize" is-config="true" duration-ms="14543" started-at="2020-03-16T19:28:22 IST" finished-at="2020-03-16T19:28:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="registerUserTc()[pri:0, instance:spicejet.RegisterUser@1fa121e2]" name="registerUserTc" duration-ms="18198" started-at="2020-03-16T19:29:01 IST" finished-at="2020-03-16T19:29:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUserTc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.RegisterUser@3cd3e762]" name="tearDown" is-config="true" duration-ms="167" started-at="2020-03-16T13:13:31 IST" finished-at="2020-03-16T13:13:31 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.RegisterUser@1fa121e2]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-03-16T19:29:54 IST" finished-at="2020-03-16T19:29:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
