@@ -6,13 +6,34 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="spicejet.FlightBooking">
+        <methods>
+          <include name="intialize"/>
+          <include name="tearDown"/>
+          <include name="flightBookingTc"/>
+        </methods>
+      </class> <!-- spicejet.FlightBooking -->
       <class name="spicejet.UserLogin">
         <methods>
           <include name="tearDown"/>
           <include name="intialize"/>
-          <include name="loginUserTc" invocation-numbers="1"/>
+          <include name="loginUserTc"/>
         </methods>
       </class> <!-- spicejet.UserLogin -->
+      <class name="spicejet.RegisterUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="intialize"/>
+          <include name="registerUserTc"/>
+        </methods>
+      </class> <!-- spicejet.RegisterUser -->
+      <class name="spicejet.HotelBooking">
+        <methods>
+          <include name="intialize"/>
+          <include name="hotelBookingTc"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- spicejet.HotelBooking -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

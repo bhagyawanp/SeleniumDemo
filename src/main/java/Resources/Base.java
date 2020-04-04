@@ -24,13 +24,13 @@ public class Base {
 	public WebDriver intializeDriver() throws IOException {
 		
 		prop=new Properties();
-		FileInputStream fis=new FileInputStream("/Users/bhagyawantpawar/eclipse-workspace/SeleniumWeb/src/main/java/Resources/base.properties");
-		
+		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"/src/main/java/Resources/base.properties");
 		prop.load(fis);
 		String browserName= prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver","/Users/bhagyawantpawar/Selenium/chromedriver 5");
+
 			driver=new  ChromeDriver();
 				
 		}

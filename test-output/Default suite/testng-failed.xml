@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="spicejet.RegisterUser">
+      <class name="spicejet.FlightBooking">
         <methods>
           <include name="intialize"/>
-          <include name="registerUserTc"/>
           <include name="tearDown"/>
+          <include name="flightBookingTc"/>
         </methods>
-      </class> <!-- spicejet.RegisterUser -->
+      </class> <!-- spicejet.FlightBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
