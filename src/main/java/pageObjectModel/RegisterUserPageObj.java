@@ -8,19 +8,19 @@ public class RegisterUserPageObj {
 	
 	public WebDriver driver;
 	
-	By loginButton=By.xpath("//a[@id='ctl00_HyperLinkLogin']");
-	By spiceClubMember=By.xpath("//a[contains(text(),'SpiceClub Members')]");
-	By signUp=By.xpath("//a[contains(text(),'Sign up')]");
-	By title=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListTitle");
-	By firstName=By.cssSelector("#CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxFirstName");
-	By lastName=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxLastName']");
-	By mobileNumber=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINTLMOBILENUMBER']");
-	By password=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldAgentPassword']");
-	By confirmPassword=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']");
-	By doB=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB");
-	By email=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']");
-	By tAndc=By.xpath("//input[@id='chkSpiceClubTnC']");
-	By submit=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_ButtonSubmit']");
+	private By loginButton=By.xpath("//a[@id='ctl00_HyperLinkLogin']");
+	private By spiceClubMember=By.xpath("//a[contains(text(),'SpiceClub Members')]");
+	private By signUp=By.xpath("//a[contains(text(),'Sign up')]");
+	private By title=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_DropDownListTitle");
+	private By firstName=By.cssSelector("#CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxFirstName");
+	private By lastName=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxLastName']");
+	private By mobileNumber=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINTLMOBILENUMBER']");
+	private By password=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldAgentPassword']");
+	private By confirmPassword=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_MemberInputRegisterView_PasswordFieldPasswordConfirm']");
+	private By doB=By.id("CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TEXTBOXINPUTDOB");
+	private By email=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_PersonInputRegisterView_TextBoxEmail']");
+	private By tAndc=By.xpath("//input[@id='chkSpiceClubTnC']");
+	private By submit=By.xpath("//input[@id='CONTROLGROUPREGISTERVIEW_ButtonSubmit']");
 	
 	
 	

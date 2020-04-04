@@ -9,12 +9,12 @@ import org.openqa.selenium.WebElement;
 public class HotelBookingPageObj {
 	public WebDriver driver;
 	
-	By hotelSearch=By.xpath("//span[contains(text(),'Hotels')]");
-	By destinationCity=By.xpath("//input[@id='ctl00_mainContent_txtOriginStation1_MST']");
-	By checkInDate=By.xpath("//input[@id='ctl00_mainContent_txt_Fromdate_MST']");
-	By calendarSelection=By.xpath("//div[@class='ui-datepicker-group ui-datepicker-group-first']//a[@class='ui-state-default']");
-	By selectAdult=By.xpath("//select[@id='ddl_Adult_MST']");
-	By searchHotel=By.xpath("//input[@id='ctl00_mainContent_ButtonSubmit_MST']");
+	private By hotelSearch=By.xpath("//span[contains(text(),'Hotels')]");
+	private By destinationCity=By.xpath("//input[@id='ctl00_mainContent_txtOriginStation1_MST']");
+	private By checkInDate=By.xpath("//input[@id='ctl00_mainContent_txt_Fromdate_MST']");
+	private By calendarSelection=By.xpath("//div[@class='ui-datepicker-group ui-datepicker-group-first']//a[@class='ui-state-default']");
+	private By selectAdult=By.xpath("//select[@id='ddl_Adult_MST']");
+	private By searchHotel=By.xpath("//input[@id='ctl00_mainContent_ButtonSubmit_MST']");
 
 
 	

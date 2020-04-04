@@ -10,12 +10,12 @@ public class FlightBookingPageObj {
 	
 	public WebDriver driver;
 	
-	By departure=By.xpath("//span[@id='ctl00_mainContent_ddl_originStation1_CTXTaction']");
-	By departureCity=By.xpath("//a[contains(text(),'Aurangabad (IXU)')]");
-	By arrivalCity=By.xpath("//a[contains(text(),'Durgapur (RDP)')]");
-	By departureDate=By.id("ctl00_mainContent_view_date1");
-	By calendarSelection=By.xpath("//div[@class='ui-datepicker-group ui-datepicker-group-first']//a[@class='ui-state-default']");
-	By searchFlight=By.id("ctl00_mainContent_btn_FindFlights");
+	private By departure=By.xpath("//span[@id='ctl00_mainContent_ddl_originStation1_CTXTaction']");
+	private By departureCity=By.xpath("//a[contains(text(),'Aurangabad (IXU)')]");
+	private By arrivalCity=By.xpath("//a[contains(text(),'Durgapur (RDP)')]");
+	private By departureDate=By.id("ctl00_mainContent_view_date1");
+	private By calendarSelection=By.xpath("//div[@class='ui-datepicker-group ui-datepicker-group-first']//a[@class='ui-state-default']");
+	private By searchFlight=By.id("ctl00_mainContent_btn_FindFlights");
 	
 	
 	public FlightBookingPageObj(WebDriver driver) {

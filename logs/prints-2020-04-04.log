@@ -1,9 +1,8 @@
-17:06:18.917 [main] INFO  Resources.Base - driver intialized
-13:06:12.683 [main] INFO  Resources.Base - driver initialized
-13:06:37.068 [main] INFO  Resources.Base - driver initialized
-13:16:31.547 [main] INFO  Resources.Base - driver initialized
-13:16:51.264 [main] INFO  Resources.Base - Navigate to url
-11:24:31.315 [main] INFO  Resources.Base - driver initialized
-11:24:36.254 [main] INFO  Resources.Base - Navigate to url
-11:24:37.839 [main] INFO  Resources.Base - driver intialized
-11:24:43.398 [main] INFO  Resources.Base - navigate to url
+15:16:25.748 [main] INFO  Resources.Base - navigate to url
+15:16:28.381 [main] INFO  Resources.Base - driver initialized
+15:16:35.170 [main] INFO  Resources.Base - naviaget to url 
+15:16:37.631 [main] INFO  Resources.Base - driver initialized register
+15:16:48.800 [main] INFO  Resources.Base - naviagate to url
+15:17:13.925 [main] INFO  Resources.Base - went through all elements
+15:17:23.535 [main] INFO  Resources.Base - went through all elements
+15:18:41.169 [main] INFO  Resources.Base - close the browser
